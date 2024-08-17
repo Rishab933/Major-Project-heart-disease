@@ -1,31 +1,31 @@
-# Heart Disease Prediction using Random Forest Classifier
+Heart Disease Prediction using Random Forest Classifier
+Overview
+This project involves using a Random Forest Classifier to predict the likelihood of heart disease in patients based on various medical attributes. The steps include data loading, exploratory data analysis (EDA), feature engineering, model building, evaluation, and visualization.
 
-## Overview
+Dataset
+The dataset contains various features such as age, cholesterol levels, maximum heart rate, and others, which help in predicting whether a patient has heart disease (target = 1) or not (target = 0).
 
-This project uses a Random Forest Classifier to predict the presence of heart disease in patients. The process includes loading the dataset, performing Exploratory Data Analysis (EDA), feature engineering, building the model, and visualizing the results.
+Project Structure
+Data Loading
 
-## Dataset
+The dataset is loaded using Pandas.
+Exploratory Data Analysis (EDA)
 
-The dataset used in this project is the Heart Disease dataset, which contains medical attributes such as age, cholesterol levels, maximum heart rate, and more. The target variable (`target`) indicates whether the patient has heart disease (1) or not (0).
+Visualize distributions of important features such as Age, Cholesterol, and Max Heart Rate.
+Explore relationships between features such as Age vs Target, Chest Pain Type vs Target, and others.
+Feature Engineering
 
-## Project Steps
+Encode categorical variables.
+Split the data into training and testing sets.
+Scale numerical features.
+Model Building
 
-### 1. Data Loading
+Build a Random Forest Classifier model using the training data.
+Model Evaluation
 
-The dataset is loaded into a Pandas DataFrame:
+Evaluate the model’s performance using a confusion matrix and classification report.
+Feature Importance Visualization
 
-```python
-file_path = r'C:\Users\Rishab\Downloads\heart-disease (1).csv'
-heart_disease_data = pd.read_csv(file_path)
-
-### 2. Exploratory Data Analysis (EDA)
-
-## Various visualizations were used to understand the distribution and relationships of features:
-
-Age Distribution: Visualized with a histogram.
-Cholesterol Distribution: Visualized with a histogram.
-Max Heart Rate Distribution: Visualized with a histogram.
-Age vs Target: Analyzed using a box plot.
-Chest Pain Type vs Target: Analyzed using a count plot.
-Resting Blood Pressure vs Target: Analyzed using a box plot.
-Number of Major Vessels vs Target: Analyzed using a count plot.
+Visualize the importance of features in predicting heart disease.
+Conclusion
+This project effectively demonstrates the use of a Random Forest Classifier to predict heart disease. The model's performance is evaluated through various metrics, and the feature importance analysis provides insights into key factors influencing the predictions.
