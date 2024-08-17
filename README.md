@@ -1,15 +1,15 @@
-## Heart Disease Prediction using Random Forest Classifier
+# Heart Disease Prediction using Random Forest Classifier
 
-# Overview
+## Overview
 
 This project involves using a Random Forest Classifier to predict the likelihood of heart disease in patients based on various medical attributes. The steps include data loading, exploratory data analysis (EDA), feature engineering, model building, evaluation, and visualization.
 
-# Dataset
+## Dataset
 The dataset contains various features such as age, cholesterol levels, maximum heart rate, and others, which help in predicting whether a patient has heart disease (target = 1) or not (target = 0).
 
-# Project Structure
+## Project Structure
 
-# Data Loading
+## Data Loading
 
 The dataset is loaded using Pandas.
 Exploratory Data Analysis (EDA)
